@@ -20,7 +20,7 @@
 <body>
 	<div id="container">
         <div id="contact-form" class="clearfix">
-            <h1>Generar CHIP</h1>
+            <h1>Generar chip</h1>
             </ul>
             <form method="post" action="chip_gasolina.php">
                 <label for="name">Codigo: <span class="required">*</span></label>
