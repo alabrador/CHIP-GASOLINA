@@ -24,7 +24,7 @@
             </ul>
             <form method="post" action="chip_gasolina.php">
                 <label for="name">Codigo: <span class="required">*</span></label>
-                <input type="text" id="code" name="code" placeholder="Ingrese codigo de gasolina" required autofocus />
+                <input type="text" id="code" name="code" pattern="[0-9]{8} placeholder="Ingrese codigo de gasolina" required autofocus />
                 <input type="submit" value="Generar" id="submit-button" />
                 <p id="req-field-desc"><span class="required">*</span> Indica los campos obligatorios</p>
             </form>
